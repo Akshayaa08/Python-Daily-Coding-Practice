@@ -8,13 +8,28 @@ questions = ("How many elements in a periodic table?: ",
              "Which planet in the solar system is the hottest?: ")
 
 options= (("A. 116","B. 117","C. 118","D. 119"),
-          ("A.Ostrich ", "B. ","C. ", "D. "),
-          ("A. ", "B. ","C. ", "D. "),
-          ("A. ", "B. ","C. ", "D. "),
-          ("A. ", "B. ","C. ", "D. "))
+          ("A.Ostrich ", "B. Whale ","C. Crocodile ", "D. Elephant "),
+          ("A.Nitrogen ", "B. Oxygen ","C. Carbon-Dioxide ", "D. Hydrogen "),
+          ("A.206 ", "B.207 ","C.208 ", "D. 209"),
+          ("A. Mercury ", "B. Venus ","C. Earth", "D. Mars"))
 
-answers = ()
+answers = ("C","A","A","A","B")
 guesses = []
 score = 0
 question_num = 0
+
+for question in questions:
+    print("---------------------------")
+    print(question)
+    for option in options[question_num]: # we will print every option in options at a given row number
+        print(option)
+    guess = input ("Enter (A,B,C,D): ").upper()
+    guesses.append(guess)
+    if guess == answers[question_num]:
+        score +=1
+        print("CORRECT")
+    else:
+        print("INCORRECT")    
+        print(f"{answers[question_num]} is the correct answer")
+    question_num += 1
 
