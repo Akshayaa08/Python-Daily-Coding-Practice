@@ -70,4 +70,4 @@ for die in range(num_of_dice):
 for die in dice:
      total += die 
 
-print(f"Total:{total}")
+print(f"Total: {total}")

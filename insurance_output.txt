@@ -1,0 +1,64 @@
+CUSTOMER DATABASE DETAILS
+----------------------------------------------------------------------------------------------------
+ID    Name                 Age        BP         Created At                Updated At               
+----------------------------------------------------------------------------------------------------
+1     Aksh                 23         No         2026-06-11 12:57:54       2026-06-11 12:57:54      
+2     aksh                 23         No         2026-06-11 12:59:14       2026-06-11 12:59:14      
+3     aksh                 23         No         2026-06-11 13:02:25       2026-06-11 13:02:25      
+4     Aksh                 23         Yes        2026-06-11 13:03:08       2026-06-11 13:03:08      
+5     aksh                 20         Yes        2026-06-12 05:36:31       2026-06-12 05:36:31      
+6     Bravo                19         Yes        2026-06-12 05:38:24       2026-06-12 05:38:24      
+
+================================================================================
+STAR HEALTH INSURANCE OUTPUT
+================================================================================
+Customer Name: aksh
+Customer Age: 20
+BP Condition: No
+Selected Plan: Star Health
+
+Services Taken:
+
+================================================================================
+STAR HEALTH INSURANCE OUTPUT
+================================================================================
+Customer Name: Bravo
+Customer Age: 22
+BP Condition: No
+Selected Plan: Star Health
+
+Services Taken:
+
+================================================================================
+STAR HEALTH INSURANCE OUTPUT
+================================================================================
+Customer Name: Gino
+Customer Age: 24
+BP Condition: No
+Selected Plan: Star Health
+
+Services Taken:
+general checkup : ₹400
+blood test : ₹150
+
+Total Medical Bill: ₹550.00
+Insurance Cover (80%): ₹440.00
+Patient Pays: ₹110.00
+================================================================================
+
+================================================================================
+STAR HEALTH INSURANCE OUTPUT
+================================================================================
+Customer Name: Aksh
+Customer Age: 23
+BP Condition: No
+Selected Plan: Star Health Pro
+
+Services Taken:
+mri : ₹5000
+ct-scans : ₹3500
+
+Total Medical Bill: ₹8500.00
+Insurance Cover (80%): ₹6800.00
+Patient Pays: ₹1700.00
+================================================================================

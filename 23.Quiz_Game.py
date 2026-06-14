@@ -18,10 +18,11 @@ guesses = []
 score = 0
 question_num = 0
 
-for question in questions:
+for question in questions: #This loop will run for all the questions and display the question for each iterations
     print("---------------------------")
     print(question)
-    for option in options[question_num]: # we will print every option in options at a given row number
+    for option in options[question_num]: 
+    #we will print every option in options at a given row number
         print(option)
     guess = input ("Enter (A,B,C,D): ").upper()
     guesses.append(guess)
@@ -33,3 +34,18 @@ for question in questions:
         print(f"{answers[question_num]} is the correct answer")
     question_num += 1
 
+print("-------------------------")
+print("         RESULTS         ")
+print("-------------------------")
+
+
+for answer in answers:
+    print(answer, end=" ")
+print()
+
+for guess in guesses:
+    print(guess,end=" ")
+print()
+
+score = int(score/len(question)*100)
+print(f"Your score is:{score}%")

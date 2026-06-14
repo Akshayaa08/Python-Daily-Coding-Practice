@@ -9,18 +9,18 @@ print(net_price(500))
 # Even whhen default arguments are set arguments are passeed it takes those into consideration
 print(net_price(500,0.2,0)) 
 
-# import time
-
-# def count(start,end):
-#     for x in range(start,end+1):
-#         print(x)
-#         time.sleep(1)
-#     print("Done!")
-
-# print(count(1,3))
-
 import time
 
+def count(start,end):
+    for x in range(start,end+1):
+        print(x)
+        time.sleep(1)
+    print("Done!")
+
+print(count(1,3))
+
+import time
+# Default value should follow after default values
 def count(end, start=0):
     for x in range(start,end+1):
         print(x)
